@@ -1,0 +1,96 @@
+.display {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify {
+  &--center {
+    justify-content: center;
+  }
+
+  &--between {
+    justify-content: space-between;
+  }
+
+  &--around {
+    justify-content: space-around;
+  }
+
+  &--evenly {
+    justify-content: space-evenly;
+  }
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.position {
+  &--relative {
+    position: relative;
+  }
+
+  &--absolute {
+    position: absolute;
+  }
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blur {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.text {
+  color: white;
+
+  &--title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &--city {
+    color: white;
+    font-size: 6rem;
+    font-weight: 600;
+  }
+}
+
+.dawn {
+  background: linear-gradient(to bottom, #fbc2eb, #a6c1ee); /* 연한 핑크와 파스텔 블루 */
+}
+
+.morning {
+  background: linear-gradient(to bottom, #b3e5fc, #81d4fa);
+}
+
+.afternoon {
+  background: linear-gradient(to bottom, #70a1ff, #1e90ff);
+}
+
+.evening {
+  background: linear-gradient(to bottom, #ffafbd, #ffc3a0);
+}
+
+.night {
+  background: linear-gradient(to bottom, #0b3d91, #1e3c72, #1e1e60, #1c1c4e, #1c1b38);
+}
+
+.header {
+  width: 1500px;
+  height: 5rem;
+  padding: 0 2rem;
+}
+
+.searchbar {
+  border-bottom: 1px solid white;
+  display: flex;
+  padding: 0.5rem;
+}
